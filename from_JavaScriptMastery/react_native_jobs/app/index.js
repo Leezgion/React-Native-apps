@@ -1,5 +1,5 @@
 import { COLORS, SIZES, icons, images } from "../constants";
-import { Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome } from "../components";
+import { NearByJobs, PopularJobs, ScreenHeaderBtn, Welcome } from "../components";
 import { SafeAreaView, ScrollView, View } from "react-native";
 import { Stack, useRouter } from "expo-router";
 
@@ -33,8 +33,8 @@ const Home = () => {
           }}
         >
           <Welcome />
-          <Popularjobs />
-          <Nearbyjobs />
+          <PopularJobs />
+          <NearByJobs />
         </View>
       </ScrollView>
     </SafeAreaView>
